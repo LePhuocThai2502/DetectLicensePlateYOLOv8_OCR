@@ -1,0 +1,22 @@
+# Ignore model weights
+*.pt
+*.pth
+
+# Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environments
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# System files
+.DS_Store
+Thumbs.db

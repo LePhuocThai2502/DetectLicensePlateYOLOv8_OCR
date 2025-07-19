@@ -1,0 +1,5 @@
+ultralytics==8.0.178
+opencv-python
+paddleocr
+paddlepaddle==2.5.2
+numpy
