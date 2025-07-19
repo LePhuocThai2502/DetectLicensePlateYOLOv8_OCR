@@ -6,7 +6,7 @@ This project is a real-time **license plate detection system** using **YOLOv8x**
 
 ## 📸 Demo Result
 
-<img src="https://github.com/LePhuocThai2502/DetectLicensePlateYOLOv8_OCR/assets/your_screenshot_id/image1.png" alt="Image recognition results" width="500"/>
+<img src="static/uploads/result_image_1752938890.jpg" alt="Image recognition results" width="500"/>
 
 > ✅ Detected plate: **51F-64665**
 
@@ -16,7 +16,16 @@ This project is a real-time **license plate detection system** using **YOLOv8x**
 
 Upload image, detect license plate, and get results visually:
 
-<img src="https://github.com/LePhuocThai2502/DetectLicensePlateYOLOv8_OCR/assets/your_screenshot_id/interface.png" alt="Web interface" width="700"/>
+<img src="static/uploads/webui.png" alt="Web interface" width="700"/>
+
+
+---
+
+##  Webcam Interface
+
+Using the device's live webcam, detect license plates and get visual results:
+
+<img src="static/uploads/webcam_1747702370.jpg" alt="Webcam interface" width="700"/>
 
 ---
 
