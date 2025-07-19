@@ -74,12 +74,33 @@ python webcam_recognition.py
 -  OpenCV.
 -  SQLite3.
 -  Flask (for web UI).
+---
+🗃️ Database Storage
+  This project automatically extracts and stores detected license plates into a local SQLite database (plates.db) for easy lookup and record-keeping.
+  
+  Each time a plate is detected:
+-  The license plate text is extracted using OCR
+-  A timestamp is recorded
+-  The data is saved into the database
+  
+  This allows you to:
+  
+-  View detection history
+-  Export results to CSV
+-  Track multiple vehicle entries over time
+
+🔍 The database schema can be easily extended to include more fields such as location, confidence score, camera source, etc.
+
+🔧 Example Entry Format:
+```bash
+Plate Number	             Timestamp
+51F-64665	                2025-07-19 10:28:55
+```
+---
 
 📃 License
 MIT License © LePhuocThai2502
 
-
----
 
 
 
