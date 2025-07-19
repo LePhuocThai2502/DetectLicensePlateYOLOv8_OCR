@@ -29,6 +29,17 @@ Using the device's live webcam, detect license plates and get visual results:
 
 ---
 
+🎞️ Supports video-based license plate detection — simply upload a video file and let the system process frames in real time:
+
+<img src="static/uploads/output_81-ezgif.com-speed.gif" alt="Video demo" width="600"/>
+
+
+---
+
+
+
+
+
 ## 📁 Project Structure
 
 ``` bash
